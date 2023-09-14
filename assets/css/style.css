@@ -473,6 +473,7 @@ h6 {
     width: 60%;
   }
 
+
   #hero .carousel-control-prev,
   #hero .carousel-control-next {
     width: 5%;
@@ -922,7 +923,8 @@ section {
 /*--------------------------------------------------------------
 # Pricing
 --------------------------------------------------------------*/
-.pricing .box {
+
+/* .pricing .box {
   padding: 20px;
   background: #fff;
   text-align: center;
@@ -1029,18 +1031,20 @@ section {
 
 .pricing .featured .btn-buy:hover {
   background: #fff;
-}
+} */
 
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
+
+
 .team {
   background: #fff;
   padding: 60px 0;
 }
 
 .team .member {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   overflow: hidden;
   border-radius: 5px;
   background: #fff;
@@ -1095,6 +1099,7 @@ section {
 
 .team .member .member-info h4 {
   font-weight: 700;
+  font-style:italic;
   margin-bottom: 5px;
   font-size: 18px;
   color: #334242;
@@ -1108,15 +1113,46 @@ section {
 }
 
 .team .member .member-info p {
-  font-style: italic;
   font-size: 14px;
   line-height: 26px;
+  font-weight:bold;
   color: #777777;
 }
 
 .team .member:hover .social {
   opacity: 1;
   bottom: 15px;
+}
+
+#secondText{
+  font-style: italic;
+  
+}
+.reunion{
+  height: 350px;
+  width: 700px;
+  padding-left: 40px;
+}
+
+.reunion11{
+  height: 350px;
+  width: 700px;  
+  padding-left: 40px;
+  padding-bottom: 40px;
+}
+.reunion1{
+  height: 350px;
+  width: 700px;  
+  padding-left: 40px;
+}
+
+.reunion2{
+  padding-left: 100px;
+  width: 100px;
+}
+
+.reunion10{
+  display: inline;
 }
 
 /*--------------------------------------------------------------
