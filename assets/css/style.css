@@ -743,6 +743,29 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+
+.col-lg-12 .cta-btn {
+  color: rgb(244, 236, 12);
+  background: #0d00c1;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline;
+  padding: 8px 28px;
+  border-radius: 4px;
+  transition: 0.5s;
+  margin-top: 10px;
+  border: 2px solid #fff;
+}
+
+.col-lg-12 .cta-btn:hover {
+  color: white;
+  background: black;
+  border: 2px solid #00c1c1;
+}
+
 .portfolio #portfolio-flters {
   padding: 0;
   margin: 0 auto 35px auto;
@@ -1434,6 +1457,13 @@ section {
   #footer .footer-top .footer-info {
     margin: -20px 0 30px 0;
   }
+}
+
+.purchasing .btn{
+  background-color:blue;
+  font-weight: bolder;
+  color: white;
+
 }
 
 .creditlink {
